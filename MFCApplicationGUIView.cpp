@@ -36,6 +36,7 @@ CMFCApplicationGUIView::CMFCApplicationGUIView() noexcept
 	// TODO: добавьте код создания
 	printf("\nHello world!\n");
 	std::cout << "It works!" << endl;
+	std::cout << "это по русски!ЭТО ПО РУССКИ - THIS IS CYRILLIC" << endl;
 	pCudp2Socket = new Cudp2Socket();
 }
 
